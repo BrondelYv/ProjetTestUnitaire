@@ -5,6 +5,9 @@ Ce projet de fin d'étude a pour but de solidifier des connaissances vues tout a
 
 Les technologies que nous avons choisis sont les suivantes : 
   - Front-End : HTML/CSS 
+      - IDE : Visual Studio  
   - Back-End : Javascript
+      - IDE : Visual Studio
   - Base de données : PostGreSQL
-  - Scraping de données/interroger le fichier : Python, sur Jupyter Notebook/Scala
+  - Scraping de données/interroger le fichier : Python/Scala
+      - IDE : Jupyter Notebook/Intellij
