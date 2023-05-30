@@ -11,3 +11,6 @@ Les technologies que nous avons choisis sont les suivantes :
   - Base de données : PostGreSQL
   - Scraping de données/interroger le fichier : Python/Scala
       - IDE : Jupyter Notebook/Intellij
+
+
+https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/
