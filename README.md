@@ -14,3 +14,10 @@ Les technologies que nous avons choisis sont les suivantes :
 
 
 https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/
+
+
+How to Launch the project 
+
+
+
+Recherche d'historique de commande  : Ctrl + R
