@@ -36,7 +36,9 @@ Recherche d'historique de commande  : Ctrl + R
 python app.py
 ```
 
-or
+__init__py à supprier du Big Bang. 
+Remplacer le début de chaque fonction de teste par"t"
+
 ```
 docker compose up
 ```
