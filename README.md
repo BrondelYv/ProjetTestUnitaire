@@ -21,3 +21,13 @@ How to Launch the project
 
 
 Recherche d'historique de commande  : Ctrl + R
+
+### Lancer le projet
+```
+python app.py
+```
+
+or
+```
+docker compose up
+```
