@@ -29,6 +29,9 @@ docker build -f Dockerfile -t myapppython .
 docker compose up
 docker compose up --build
 
+# Regarder le port 
+sudo lsof -i :5000 
+
 Recherche d'historique de commande  : Ctrl + R
 
 ### Lancer le projet
