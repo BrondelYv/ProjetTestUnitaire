@@ -17,9 +17,17 @@ https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/
 
 
 # How to Launch the project 
-docker-compose up
+# Sans Docker
+pip install pandas
+pip freeze | grep -i pandas
+pip install -r -requirements.txt
+python app.py
 
 
+# Avec Docker
+docker build -f Dockerfile -t myapppython .
+docker compose up
+docker compose up --build
 
 Recherche d'historique de commande  : Ctrl + R
 
