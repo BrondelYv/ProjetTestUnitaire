@@ -22,3 +22,13 @@ docker-compose up
 
 
 Recherche d'historique de commande  : Ctrl + R
+
+### Lancer le projet
+```
+python app.py
+```
+
+or
+```
+docker compose up
+```
