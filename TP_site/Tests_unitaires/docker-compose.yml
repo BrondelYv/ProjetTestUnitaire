@@ -6,6 +6,21 @@ services :
     ports:
       - '5000:5000'
     environment:
+      - postgres=postgres
       - FLASK_APP=app.py
+    depends_on:
+      - postgres
     volumes:
       - ./:/app
+
+
+  postgres:
+    image: postgres:13.6
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    hostname: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_DB: database-tvnews
+      POSTGRES_PASSWORD: password
