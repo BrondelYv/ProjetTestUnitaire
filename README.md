@@ -26,7 +26,9 @@ python app.py
 
 # Avec Docker
 docker build -f Dockerfile -t myapppython .
+
 docker compose up
+
 docker compose up --build
 
 Recherche d'historique de commande  : Ctrl + R
